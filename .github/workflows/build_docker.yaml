@@ -33,4 +33,4 @@ jobs:
           context: ./${{ github.event.inputs.type }}
           file: ./${{ github.event.inputs.type }}/Dockerfile
           push: true
-          tags: clownfishx/pgvector-${{ github.event.inputs.type }}:${{ github.event.inputs.version }}
+          tags: clownfishx/${{ github.event.inputs.type }}:${{ github.event.inputs.version }}
